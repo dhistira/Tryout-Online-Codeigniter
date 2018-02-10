@@ -2,11 +2,11 @@
 Sebelum modifikasi : 
 https://github.com/akhwan90/cat
 
-#Deskripsi
+# Deskripsi
 Aplikasi ini merupakan hasil fork dari link diatas dengan beberapa modifikasi yang disesuaikan dengan kebutuhan Try Out online. Dimana modifikasinya akan selalu update di changelog baik secara perbaikan bug ataupun penambahan/pengurangan fitur.
 
-#Changelog
-###10 Februari 2018
+# Changelog
+### 10 Februari 2018
 * Perbaikan bug SQL
 * Perbaikan bug undefined offset ketika input jawaban
 
@@ -14,19 +14,19 @@ Aplikasi ini merupakan hasil fork dari link diatas dengan beberapa modifikasi ya
 
 # Detail dari laman CAT
 
-#Pemrograman :
+# Pemrograman :
 1. PHP dengan framework : Codeigniter versi  2.x.x (ane lupa versinya, yang jelas versi 2)
 2. Javascript jQuery, untuk menghandel perintah-perintah javascript, dan lainya.
 3. format data JSON untuk pertukaran data antara server dgn client, pada menu-menu yang ber-AJAX
 4. Design UI dengan framework CSS, Twitter Bootstrap
 
-#Level user : 
+# Level user : 
 1. Admin, merupakan level tertinggi dari aplikasi, bisa memanej data : guru/dosen,  siswa, mata pelajaran, soal, lihat hasil ujian
 2. Guru, mempunyai akses, bisa memanage data : soal, daftar ujian, dan melihat hasil ujian
 3. Siswa, mempunya akses, bisa mengikuti ujian, sesuai dengan mata pelajaran yang ia ikuti, yang diatur oleh  level admin, dan melihat hasil ujian.
 
 
-#Yang Baru di CAT Versi DUA
+# Yang Baru di CAT Versi DUA
 
 Level Admin :
 * Data siswa dengan fasilitas paging dan pencarian data siswa langsung.
