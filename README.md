@@ -1,9 +1,18 @@
-# Aplikasi Ujian Online (CAT)
-Link postingan blog : 
-http://nur-akhwan.blogspot.co.id/2015/09/download-aplikasi-ujian-online-dengan.html
+# Tryout Online dengan Codeigniter
+Sebelum modifikasi : 
+https://github.com/akhwan90/cat
 
 #Deskripsi
-Aplikasi Ujian Online, adalah aplikasi yang digunakan untuk melakukan proses ujian , tanpa menggunakan kertas (paperless) , atau sekarang ngetren dengan nama Computer Based Test (CBT), atau Computer Assisted Test (CAT). Semua proses ujian dilakukan melalui komputer, mulai dari pembuatan soal, pengaturan kelas, pengaturan user yang bisa ikut ujian, pengaturan guru mengajar, sampai proses ujian, dengan memanfaatkan teknologi rekayasa web. Tipe soal yang bisa masuk ke aplikasi ujian online di pembahasan ini adalah tipe soal pilihan ganda. 
+Aplikasi ini merupakan hasil fork dari link diatas dengan beberapa modifikasi yang disesuaikan dengan kebutuhan Try Out online. Dimana modifikasinya akan selalu update di changelog baik secara perbaikan bug ataupun penambahan/pengurangan fitur.
+
+#Changelog
+###10 Februari 2018
+* Perbaikan bug SQL
+* Perbaikan bug undefined offset ketika input jawaban
+
+===================
+
+# Detail dari laman CAT
 
 #Pemrograman :
 1. PHP dengan framework : Codeigniter versi  2.x.x (ane lupa versinya, yang jelas versi 2)
