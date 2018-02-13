@@ -48,7 +48,7 @@ class Adm extends CI_Controller {
 		//var def uri segment
 		$uri2 = $this->uri->segment(2);
 		$uri3 = $this->uri->segment(3);
-		$uri4 = $this->uri->segment(4);
+		$uri4 = preg_replace("/[^0-9]/","",$this->uri->segment(4));
 		
 		//var post from json
 		$p = json_decode(file_get_contents('php://input'));
@@ -1503,7 +1503,7 @@ class Adm extends CI_Controller {
 		
 		$password2	= md5($password);
 		
-		$q_data		= $this->db->query("SELECT * FROM m_admin WHERE username = '".$username."' AND password = '$password2'");
+		$q_data		= $this->db->query("SELECT * FROM m_admin WHERE username = ? AND password = ?",array($username,$password2));
 		$j_data		= $q_data->num_rows();
 		$a_data		= $q_data->row();
 		
