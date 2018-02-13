@@ -6,6 +6,9 @@ https://github.com/akhwan90/cat
 Aplikasi ini merupakan hasil fork dari link diatas dengan beberapa modifikasi yang disesuaikan dengan kebutuhan Try Out online. Dimana modifikasinya akan selalu update di changelog baik secara perbaikan bug ataupun penambahan/pengurangan fitur.
 
 ## Changelog
+### 13 Februari 2018
+* Perbaikan Bug SQL pada Login dan Edit Guru
+
 ### 10 Februari 2018
 * Perbaikan bug SQL
 * Perbaikan bug undefined offset ketika input jawaban
